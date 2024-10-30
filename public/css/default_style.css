@@ -1,0 +1,100 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used 
+    background-image: url("/images/academic7.jpg");*/
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: hsl(203, 100%, 94%);
+  }
+  
+#container01
+{
+    background-color: rgba(0, 187, 255, 0.998);
+    margin-top: 80px;
+    padding: 35px 0 20px 40px ;
+    /* top right bottom left */
+    color: #002366;
+    border-radius: 40px  0 0 40px;
+    box-shadow:3px 7px 4px 1px rgba(0, 0, 0, 0.5); 
+}
+
+#container02 {
+    background-color: rgba(0, 187, 255, 0.998);
+    margin-top: 80px;
+    padding: 35px 20px 20px 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #FFFFFF;
+    border-radius: 0 40px 40px 0; /* Top left and bottom left corners with a radius of 40 pixels */
+    box-shadow:3px 7px 4px 1px rgba(0, 0, 0, 0.5); 
+}
+#container03
+{
+    color:#002366;
+    margin-top: 35px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#btn-login{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+#nav-image-logo{
+    margin-left: 35px;
+    margin-right: 10px;
+}
+
+.footer-custom
+{
+    background-color: rgb(1, 93, 154);
+    color: #ffffff;
+    
+}
+
+#container_department
+{
+    margin-top: 70px;
+}
+#faccontainer{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+#faccontainer h1{
+    color:#000000;
+}
+#faccontainer label{
+    color: #000000;
+}
+
+
+.bpu-container {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-align: left;
+}
+
+.bpu-container h1{
+    color:#000000;
+    text-align: center;
+}
+.bpu-container label{
+    color: #000000;
+}
+
+
+
+

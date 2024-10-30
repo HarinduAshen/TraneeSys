@@ -1,0 +1,61 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("/images/academic.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+#container01
+{
+    background-color: rgba(0, 187, 255, 0.998);
+    margin-top: 80px;
+    padding: 35px 0 20px 40px ;
+    /* top right bottom left */
+    color: #002366;
+    
+}
+
+#container02
+{
+    background-color: rgba(0, 187, 255, 0.998);
+    margin-top: 80px;
+    padding: 35px 20px 20px 20px ;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #FFFFFF;
+}
+
+#container03
+{
+    color:#002366;
+    margin-top: 35px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#btn-login{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+#nav-image-logo{
+    margin-left: 35px;
+    margin-right: 10px;
+}
+
+.footer-custom
+{
+    background-color:  #002366;
+    color: #ffffff;
+    
+}
