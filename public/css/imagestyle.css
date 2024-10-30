@@ -1,0 +1,40 @@
+
+    .circular-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+
+
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.modal-dialog {
+    width: 400px; /* Adjust the size as needed */
+    height: 400px; /* Adjust the size as needed */
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: white; /* Ensure background is white */
+}
+
+.modal-body img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain;
+    border: 0px solid rgb(255, 255, 255); /* Adjust border thickness and color as needed */
+    border-radius: 8px; /* Optional: to round corners */
+}
